@@ -6,7 +6,7 @@ TEMPLATE_DEPLOY = setup-templates/template-deploy
 TEMPLATE_INCIDENT = setup-templates/template-incident
 
 ifndef $(GOPATH)
-    GOPATH=$(shell go env GOrATH)
+    GOPATH=$(shell go env GOPATH)
     export GOPATH
 endif
 
